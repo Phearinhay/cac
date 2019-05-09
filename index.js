@@ -1,3 +1,9 @@
+// Preloader
+$(window).on('load', function(){
+  $("#status").fadeOut();
+  $("#preloader").delay(350).fadeOut();
+});
+
 function myFunctionPap() {
   var dots = document.getElementById("dots-pap");
   var moreText = document.getElementById("more-pap");
