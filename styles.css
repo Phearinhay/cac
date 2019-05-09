@@ -10,7 +10,7 @@
 }
 
 #status{
-  background-image: url("../img/preloader/preloader.gif");
+  background-image: url("../image/preloader.gif");
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
