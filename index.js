@@ -1,7 +1,7 @@
 // Preloader
-$(window).on('load', function(){
-  $("#status").fadeOut();
-  $("#preloader").delay(350).fadeOut();
+document.getElementByID(window).on('load', function(){
+  document.getElementByID("#status").fadeOut();
+  document.getElementByID("#preloader").delay(350).fadeOut();
 });
 
 function myFunctionPap() {
