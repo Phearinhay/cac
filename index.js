@@ -1,8 +1,8 @@
-// Preloader
-document.getElementByID(window).on('load', function(){
-  document.getElementByID("#status").fadeOut();
-  document.getElementByID("#preloader").delay(350).fadeOut();
-});
+// // Preloader
+// document.getElementByID(window).on('load', function(){
+//   document.getElementByID("#status").fadeOut();
+//   document.getElementByID("#preloader").delay(350).fadeOut();
+// });
 
 function myFunctionPap() {
   var dots = document.getElementById("dots-pap");
